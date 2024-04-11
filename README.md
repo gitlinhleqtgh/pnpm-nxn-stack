@@ -3,5 +3,5 @@ config:
 2. cd /pnpm-nxn-stack
 3. docker compose up
 4. backend apis at localhost:3001
-   fronend pages at localhost:3000
+   frontend pages at localhost:3000
 5. package manage:  pnpm check at package.json
