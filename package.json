@@ -1,0 +1,16 @@
+{
+  "name": "nestjs-pg-nextjs-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm run update-env && pnpm run --parallel build && pnpm run --parallel dev",
+    "build": "pnpm run --parallel build",
+    "migrate": "pnpm run --filter api migrate",
+    "lint": "pnpm run --parallel lint",
+    "update-env": "cp .env apps/api && cp .env apps/web"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

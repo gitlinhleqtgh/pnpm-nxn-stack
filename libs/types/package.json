@@ -1,0 +1,10 @@
+{
+  "name": "libs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5"
+  }
+}
